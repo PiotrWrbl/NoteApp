@@ -32,7 +32,6 @@ mongoose.connect('mongodb://localhost:27017/')
    })
    .catch((error) => {
       console.error("Error connecting to MongoDB:", error);
-      console.log("123")
    });
 
 
