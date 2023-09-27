@@ -18,7 +18,7 @@ To run app using docker you have to:
 
 -update the url to database in index.js to:
 
-line 29: mongoose.connect('mongodb://mongodb:27017/')
+line 29: mongoose.connect('mongodb://mongo:27017/')
 
 -turn on docker deamon
 
